@@ -1,0 +1,39 @@
+.profile-view-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.profile-card {
+  max-width: 400px;
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.overlay-container {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  z-index: 2; 
+  cursor: pointer;
+}
+
+.overlay-container mat-icon {
+  font-size: 20px;
+}

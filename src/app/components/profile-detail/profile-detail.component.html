@@ -1,0 +1,23 @@
+<div class="profile-view-container">
+  <mat-card class="profile-card">
+    <div class="image-container">
+      <!-- Back button with ID overlay, positioned in the top-left corner of the image -->
+      <div class="overlay-container" (click)="goBack()">
+        <mat-icon>arrow_back</mat-icon>
+        <span class="profile-id">{{ profile.id }}</span>
+      </div>
+
+      <img mat-card-image class="profile-image" [src]="profile.image" alt="Profile Image">
+    </div>
+
+    <mat-card-header>
+      <mat-card-title class="profile-name">{{ profile.name }}</mat-card-title>
+      <mat-card-subtitle class="profile-subtitle">
+        {{ profile.age }} Yrs, {{ profile.height }}, {{ profile.religion }}
+      </mat-card-subtitle>
+      <mat-card-subtitle class="profile-subtitle">
+        {{ profile.education }}, {{ profile.location }}
+      </mat-card-subtitle>
+    </mat-card-header>
+  </mat-card>
+</div>

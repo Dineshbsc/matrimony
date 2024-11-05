@@ -1,0 +1,23 @@
+[
+    {
+      "id": "M9837832",
+      "name": "Priyanka",
+      "age": 27,
+      "height": "5 ft 2 in",
+      "religion": "Tamil, Nair",
+      "education": "MBBS, Doctor",
+      "location": "Chennai, Tamil Nadu, India",
+      "image": "assets/images/priyanka.webp"
+    },
+    {
+      "id": "M1234567",
+      "name": "Aiswarya",
+      "age": 26,
+      "height": "5 ft 4 in",
+      "religion": "Tamil, Nair",
+      "education": "MBBS, Doctor",
+      "location": "Chennai, Tamil Nadu, India",
+      "image": "assets/images/aiswarya.webp"
+    }
+  ]
+  
